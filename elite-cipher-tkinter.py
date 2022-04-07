@@ -11,8 +11,7 @@ root.geometry("615x650")
 root.resizable(True,True)
 
 #Cipher Dictionary
-encode_dict = {'a':'0','b':')','c':'@','d':'*','e':'#','f':'o','g':'r','h':'$','i':'v','j':':','k':';','l':'`','m':'~','n':'?','o':'z','p':'s','q':'[','r':']','s':'&','t':'!','u':'<','v':'>','w':'_','x':'=','y':'+','z':'^',' ':' ',}
-#decode_dict = {'0':'a',')':'b','@':'c'}
+encode_dict = {'a':'0','b':')','c':'@','d':'*','e':'#','f':'o','g':'r','h':'$','i':'v','j':':','k':';','l':'`','m':'~','n':'?','o':'z','p':'s','q':'[','r':']','s':'&','t':'!','u':'<','v':'>','w':'_','x':'=','y':'+','z':'^',' ':' '}
 decode_dict  =  dict([item[::-1]for item in encode_dict.items()])
 #Frame 
 frame = Frame(
