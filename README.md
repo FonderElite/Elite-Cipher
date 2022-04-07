@@ -1,4 +1,4 @@
-## 💀 Elite-Cipher 
+## img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="60px"> Elite-Cipher 
 <p>This cipher is an original cipher that is made in tkinter. It has it's own dictionary as well. <br> This project is also easy to use as long as you have a code editor/terminal to execute the code.</p>
 
 ## Technologies 
