@@ -1,5 +1,5 @@
 # <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="60px"> Elite-Cipher 
-<p>This cipher is an original cipher that is made in tkinter. It has it's own dictionary as well. <br> This project is also easy to use as long as you have a code editor/terminal to execute the code.</p>
+<p>This cipher is an original cipher that is made in tkinter and also has a cli version. It has it's own dictionary as well. <br> This project is also easy to use as long as you have a code editor/terminal to execute the code.</p>
 
 ## Demo 
 <img src="https://i.ibb.co/3CyrW7R/decode.png" width="850px">
