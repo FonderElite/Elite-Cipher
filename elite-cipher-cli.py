@@ -25,11 +25,14 @@ class EliteCipher(object):
  \033[1;37;40m
          """)
     def encipher(self) -> str:
+        try:
+            arr = []
             output = ''
             for i in str(self.encode):
-                get_items = encode_dict.get(i)
-                output+=str(get_items)
-            print(f"[\033[1;32;40m+\033[1;37;40m]Enciphered Text: {output}")
+                arr.append(encode_dict[i])
+            print(f"[\033[1;32;40m+\033[1;37;40m]Enciphered Text: {''.join(arr)}")
+        except Exception as err:
+            pass
     def decipher(self) -> str:
         arr = []
         try:
