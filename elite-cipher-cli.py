@@ -25,8 +25,8 @@ class EliteCipher(object):
  \033[1;37;40m
          """)
     def encipher(self) -> str:
+        arr = []
         try:
-            arr = []
             output = ''
             for i in str(self.encode):
                 arr.append(encode_dict[i])
