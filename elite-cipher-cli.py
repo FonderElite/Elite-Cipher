@@ -4,7 +4,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-e','--encipher',metavar='',help='Input String to Encipher')
 parser.add_argument('-d','--decipher',metavar='',help='Input String to Decipher')
 args = parser.parse_args()
-encode_dict = {'a':'0','b':')','c':'@','d':'*','e':'#','f':'o','g':'r','h':'$','i':'v','j':':','k':';','l':'`','m':'~','n':'?','o':'z','p':'s','q':'[','r':']','s':'&','t':'!','u':'<','v':'>','w':'_','x':'=','y':'+','z':'^',' ':' ',':':'🥰','/':'😬','.':'⛰'}
+encode_dict = {'a':'🙌','b':'👏','c':'👋','d':'👍','e':'👊','f':'✊','g':'✌️','h':'👌','i':'✋','j':'💪','k':'🙏','l':'☝️','m':'👆','n':'👇','o':'👈','p':'👉','q':'🖕','r':'🤘','s':'🖖','t':'🧏','u':'💅','v':'🤳','w':'🤞','x':'🤙','y':'🤛','z':'🤜',' ':' ',':':'🧠','/':'🦾','.':'🤟','0':'🥷','1':'🤺','2':'👩','3':'👑','4':'🥽','5':'😍','6':'🐶','7':'🐱','8':'🐭','9':'🐹'}
 decode_dict  =  dict([item[::-1]for item in encode_dict.items()])
 class EliteCipher(object):
     def __init__(self,encode,decode):
